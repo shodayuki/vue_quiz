@@ -1,10 +1,12 @@
 <script setup lang="ts">
   import HomeIntroduction from "@/components/molecules/home/HomeIntroduction.vue";
+  import HomeSetting from "@/components/molecules/home/HomeSetting.vue";
 </script>
 
 <template>
   <div class="container">
     <HomeIntroduction />
+    <HomeSetting />
   </div>
 </template>
 
